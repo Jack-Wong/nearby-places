@@ -1,0 +1,12 @@
+.placeCard {
+  border: 1px solid;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.placeCard:hover {
+  box-shadow: 10px 5px 5px grey;
+}

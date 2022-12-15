@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+    padding: 0px 8px 100px;
+}
+
+.form {
+  display: flex;
+  margin-bottom: 36px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.locationWrapper {
+  display: flex;
+  flex-direction: column;
+    max-width: 50%;
+  align-items: center;
+}
+
+.locationRadioWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.leftRadioSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightRadioSection {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+.searchWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchButton {
+  background-color: skyblue;
+  color: white;
+  padding: 4px;
+  max-width: 80px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .locationWrapper {
+      max-width: 100%;
+  }
+}
